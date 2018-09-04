@@ -1,4 +1,3 @@
-# sarahcdavis.github.io
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,0 +1,91 @@
+header {
+	background-size: cover;
+	background: url(file:///Users/sarah/Desktop/OUTRO/patterns/Screen%20Shot%202018-06-14%20at%2012.46.50%20PM.png);
+	text-align: center;
+	padding: 60px 40px 60px 40px;
+	z-index: 1;
+
+}
+
+h1, h2, h3 {
+	font-family: helvetica;
+	z-index: 0;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 60px;
+	text-align: center;
+	color: #e800fc;
+
+}
+
+h2 {
+	color: #ec008c;
+	font-size: 35px;
+	position: relative;
+	position: relative;
+}
+
+h3 {
+	position: relative;
+	color: black;
+	font-size: 18px;
+	z-index: 0;
+	position: absolute;
+	line-height: 50px;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 20px;
+	letter-spacing: 5px;
+	line-height: 50px;
+}
+
+br {
+    display: block;
+    margin: 500;
+}
+
+.woo {
+	padding-top: 50px;
+}
+
+.phone {
+	position: sticky;
+    top: 0;
+    z-index: -1;
+    width: 200%;
+}
+
+.margins {
+	margin: 20px 20px 20px 20px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("file:///Users/sarah/Desktop/OUTRO/patterns/Screen%20Shot%202018-06-14%20at%2012.46.50%20PM.png");
+
+    /* Set a specific height */
+    height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

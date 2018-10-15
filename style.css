@@ -1,0 +1,89 @@
+h1, h2, h3, h4, h5, p, header, li, ul {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+	background-size: cover;
+	background: url(file:///Users/sarah/Desktop/Web%20Fundamentals/Midterm/header.gif);
+	text-align: center;
+}
+
+body {
+	background: #FFCCFF;
+}
+
+p {
+	line-height: 33px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-size: 30px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+h2 {
+	color: black;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+h3 {
+	font-size: 10px;
+	color: #ec008c;
+}
+
+ul {
+	background-color: yellow;
+	padding: 20px;
+	margin: 0px;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	border-right: 1px dashed #ec008c;
+	padding-right:25px;
+	font-weight: bold;
+}
+
+li:hover {
+    background-color: white;
+    color: #ec008c;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+a:active {
+	background-color: white;
+	color: #ec008c;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: #ec008c;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+    align-content: center;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+    align-content: center;
+}

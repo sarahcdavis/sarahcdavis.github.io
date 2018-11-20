@@ -1,0 +1,10 @@
+body {
+	font-family: source sans pro;
+}
+
+.phone {
+	position: sticky;
+    top: 0;
+    z-index: -1;
+    width: 200%;
+}
